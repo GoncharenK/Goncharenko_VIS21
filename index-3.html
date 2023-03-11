@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="static/Images_files/noun-chess-1387107.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="static/Css_files/mystyle_3.css">
+    <title>Библиотека</title>
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header">
+        <ul class="menu">
+            <img src="static/Images_files/noun-chess-1387107.png" class="logo" alt="">
+            <h4 class="name_site">RuChess</h4>
+            <img src="static/Images_files/noun-chess-2069697.png" alt="" class="logo">
+            <li><a href="index_main.html">Главная</a></li>
+            <li><a href="#">Игра</a></li>
+            <li><a href="#">Общение</a></li>
+            <li><a href="#">Аккаунт</a></li>
+            <li><a href="#">История</a></li>
+        </ul>
+    </header>
+<main class="main">
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center col-lg-12">Библиотека</h1>
+
+            <div class="col-lg-12 text-right">
+                <button class="book-add btn btn-primary" data-toggle="modal" data-target="#modal-add-book">Добавить книгу</button>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="row book-panel">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-add-book" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Добавить книгу в библиотеку</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="book-name" class="col-sm-2 col-form-label">Книга:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="book-name" id="book-name" value="Колобок">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="book-author" class="col-sm-2 col-form-label">Автор:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="book-author" id="book-author" value="Пример Примерыч">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="book-year" class="col-sm-2 col-form-label">Год:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="book-year" id="book-year" value="2018">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                                <label for="book-cover" class="col-sm-2 col-form-label">Ссылка:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="book-cover" id="book-cover" value="https://i.livelib.ru/boocover/1000008975/o/ce3c/bez_avtora__Kolobok.jpeg">
+                                </div>
+                            </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary" id="modal-add-book-ok">Добавить книгу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+    <div class="container">
+    <div class="row">
+      
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget subscribe no-box">
+    <h5 class="widget-title">QueenChess<span></span></h5>
+    <p>This site was created to analyze the games of Russian grandmasters, as well as to study the history of the development of Russian chess </p>
+    </div>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget no-box">
+    <h5 class="widget-title">Quick Links<span></span></h5>
+    <ul class="thumbnail-widget">
+    <li>
+    <div class="thumb-content"><a href="#.">Get Started</a></div>  
+    </li>
+    <li>
+    <div class="thumb-content"><a href="#.">Top Leaders</a></div>  
+    </li>
+    <li>
+    <div class="thumb-content"><a href="#.">Success Stories</a></div>  
+    </li>
+    <li>
+    <div class="thumb-content"><a href="#.">Event/Tickets</a></div>  
+    </li>
+    <li>
+    <div class="thumb-content"><a href="#.">News</a></div>  
+    </li>
+    </ul>
+    </div>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="widget no-box">
+    <h5 class="widget-title">Get Started<span></span></h5>
+    <p>Register now to chat on the forum and play with other chess players.</p>
+    <a class="btn" href="index-2.html" target="_blank">Register Now</a>
+    </div>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    
+    <div class="widget no-box">
+    <h5 class="widget-title">Contact Us<span></span></h5>
+    
+    <p><a href="mailto:info@domain.com" title="glorythemes">vladimir.goncharenko2003@mail.ru</a></p>
+    <ul class="social-footer2">
+    <li class=""><a title="vk" target="_blank" href="https://vk.com/ggoncharen"><img alt="vk" width="30" height="30" src="static/Images_files/5968835.png"></a></li>
+    <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/p/CmmaBfrsObJ/?igshid=MDJmNzVkMjY="><img alt="instagram" width="30" height="30" src="static/Images_files/174855.png"></a></li>
+    </ul>
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+      
+    <div class="footer-copyright">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center">
+    <p>RuChess © 2023. All rights reserved.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+    
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="static/script/script.js"></script>
+    <script>
+        document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')
+    </script>
+
+
+</body>
+</html>
